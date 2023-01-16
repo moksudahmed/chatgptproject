@@ -12,7 +12,7 @@ function Home() {
     event.preventDefault();
 
     // Make a POST request to the server with the form data
-    fetch('http://localhost:5000', {
+    fetch('https://chatgptserver-hugc.onrender.com/', {
       method: 'POST',
       body: JSON.stringify(formData),
       headers: {

@@ -16,7 +16,7 @@ if (result.error) {
 //console.log(process.env.OPENAI_API_KEY)
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: "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",
 });
 
 const openai = new OpenAIApi(configuration);
